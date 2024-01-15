@@ -1,7 +1,10 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+<script lang="ts">
+	import Terminal from '$lib/components/Terminal.svelte';
+	import Projects from '$lib/sections/Projects.svelte';
+	import Languages from '$lib/sections/Languages.svelte';
+	import Tools from '$lib/sections/Tools.svelte';
+	import Intro from '$lib/sections/Intro.svelte';
+	import Contacts from '$lib/components/Contacts.svelte';
 </script>
 
 <svelte:head>
@@ -9,51 +12,40 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+<section class="">
+	<div class="w-full h-full">
+		<Intro />
+		<div class="bottom-section h-full pb-8">
+			<div class="max-w-screen-xl mx-auto px-8">
+				<div class="py-8">
+					<Terminal />
+				</div>
+				<div class="py-8">
+					<Projects />
+				</div>
+				<div class="py-8">
+					<Languages />
+				</div>
+				<div class="py-8">
+					<Tools />
+				</div>
+				<div class="py-8">
+					<Contacts />
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+<style lang="postcss">
+	.bottom-section {
+		background: rgb(143, 163, 255);
+		background: linear-gradient(
+			180deg,
+			rgba(143, 163, 255, 1) 0%,
+			rgba(143, 163, 255, 1) 0%,
+			rgba(175, 175, 246, 1) 35%,
+			rgba(250, 244, 187, 1) 100%
+		);
 	}
 </style>

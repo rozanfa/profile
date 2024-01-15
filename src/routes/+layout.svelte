@@ -1,17 +1,19 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '../app.css';
 </script>
 
 <div class="app">
-	<Header />
+	<!-- <Header /> -->
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Created by Rozan Fadhil Al Hafidz using Svelte Framework</p>
+		<a class="ext" href="https://simpleicons.org/" title="Simple Icons">Icons by Simple Icons</a>
 	</footer>
 </div>
 
@@ -26,9 +28,7 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
@@ -39,10 +39,13 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		background-color: #000;
+		color: #fff;
+		font-size: 12px;
 	}
 
-	footer a {
-		font-weight: bold;
+	.ext {
+		font-size: 10px;
 	}
 
 	@media (min-width: 480px) {
