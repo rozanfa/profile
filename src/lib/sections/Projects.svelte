@@ -15,14 +15,6 @@
 			time="Jan 2024"
 		/>
 		<Chip
-			title="Automatic Speech Recognition (ASR)"
-			description="Recognize bilingual speech from given audio (file or microphone) using Sphinx toolkit"
-			span={2}
-			bgColor="#ffbb33"
-			link="https://github.com/zaydzuhri/tubes-speech-sphinx"
-			time="Des 2023"
-		/>
-		<Chip
 			title="Vehicle Detector"
 			description="Detect vehicles from given images using machine learning and image processing techniques"
 			span={2}
@@ -43,9 +35,17 @@
 			title="Kud: Simple Version Control System"
 			description="Simple Version Control System to records changes to set of files using bash script"
 			span={2}
-			bgColor="#c0d0d0"
+			bgColor="#eaefa0"
 			time="Mar 2023"
 			link="https://github.com/rozanfa/kud"
+		/>
+		<Chip
+			title="Simple Restaurant Android App"
+			description="Simple Restaurant Android App that allows user to order food and check restaurant's location. Also use CameraX to scan QR Code. Using Kotlin and Android Studio"
+			span={2}
+			bgColor="#c0d0d0"
+			time="Feb 2023"
+			link="https://gitlab.informatika.org/rozanfa/if3210-2023-android-pkr"
 		/>
 		<Chip
 			title="Pekotify"

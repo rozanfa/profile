@@ -36,4 +36,8 @@
 </section>
 
 <style lang="postcss">
+	h1,
+	p {
+		color: black;
+	}
 </style>

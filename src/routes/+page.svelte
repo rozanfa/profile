@@ -8,8 +8,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Rozan Fadhil Al Hafidz</title>
+	<meta name="description" content="Rozan Fadhil Al Hafidz Profile" />
 </svelte:head>
 
 <section class="">
