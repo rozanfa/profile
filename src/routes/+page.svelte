@@ -5,6 +5,7 @@
 	import Tools from '$lib/sections/Tools.svelte';
 	import Intro from '$lib/sections/Intro.svelte';
 	import Contacts from '$lib/components/Contacts.svelte';
+	import Works from '$lib/sections/Works.svelte';
 </script>
 
 <svelte:head>
@@ -19,6 +20,9 @@
 			<div class="max-w-screen-xl mx-auto px-8">
 				<div class="py-8">
 					<Terminal />
+				</div>
+				<div class="py-8">
+					<Works />
 				</div>
 				<div class="py-8">
 					<Projects />

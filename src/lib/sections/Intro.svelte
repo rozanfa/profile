@@ -37,6 +37,7 @@
 			class="flex gap-4 text-indigo-600 pt-2 md:flex-row flex-col text-center mt-2 border-t border-indigo-500"
 		>
 			<a href="#terminal" on:click={handleAnchorClick}>About Me</a>
+			<a href="#carier-history" on:click={handleAnchorClick}>Carier History</a>
 			<a href="#recent-projects" on:click={handleAnchorClick}>Recent Projects</a>
 			<a href="#languages" on:click={handleAnchorClick}>Programming Languages</a>
 			<a href="#tools" on:click={handleAnchorClick}>Tools</a>

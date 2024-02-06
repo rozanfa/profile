@@ -31,7 +31,7 @@
 			{/if}
 		</div>
 	</div>
-	<p>{description}</p>
+	<p>{@html description}</p>
 </div>
 
 <style lang="postcss">
