@@ -21,7 +21,7 @@
 </script>
 
 <section class="main w-screen">
-	<div class="intro-container min-w-screen">
+	<div class="intro-container min-w-screen min-h-[600px]">
 		<h1 class="md:text-4xl text-3xl font-bold bg-blue-200 p-4 rounded-xl">
 			Rozan Fadhil Al Hafidz
 		</h1>

@@ -7,11 +7,25 @@
 	<p class="text-center mb-4">Mainly consist of personal project and school project</p>
 	<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 		<Chip
+			title="Dunia Material"
+			description="A website for buying construction materials. Used NextJS, TailwindCSS, and MaterialUI. Implements internationalization to support multiple languages."
+			span={2}
+			bgColor="#ddbb40"
+			time="Mar 2024"
+		/>
+		<Chip
+			title="Jasmine Florist"
+			description="A website for buying flowers and flower arrangements. Used PHP Laravel and TailwindCSS."
+			span={2}
+			bgColor="#eec3a7"
+			link="https://jasmineflorist.co.id"
+			time="Jan 2024"
+		/>
+		<Chip
 			title="2-bit Pixel Art Generator"
 			description="Generate 2-bit pixel art from given images. Using image processing techniques"
 			span={2}
 			bgColor="#ffa960"
-			link="http://pixel.rozanfa.codes"
 			time="Jan 2024"
 		/>
 		<Chip

@@ -18,6 +18,8 @@
 	import mongodbLogo from '$lib/images/mongodb.svg';
 	import rabbitmqLogo from '$lib/images/rabbitmq.svg';
 	import figmaLogo from '$lib/images/figma.svg';
+	import ansibleLogo from '$lib/images/ansible.svg';
+	import terraform from '$lib/images/terraform.svg';
 
 	import Chip from '$lib/components/Chip.svelte';
 </script>
@@ -66,6 +68,13 @@
 			description="PostgreSQL, MySQL, MongoDB for databases"
 			span={2}
 			bgColor="#31648c"
+		/>
+		<Chip
+			logos={[ansibleLogo, terraform]}
+			title="Infrastructure as Code"
+			description="Ansible, Terraform for infrastructure as code"
+			span={2}
+			bgColor="#888888"
 		/>
 		<Chip
 			logos={[rabbitmqLogo]}
