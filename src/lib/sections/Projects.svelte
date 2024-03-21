@@ -26,6 +26,7 @@
 			description="Generate 2-bit pixel art from given images. Using image processing techniques"
 			span={2}
 			bgColor="#ffa960"
+			link="https://pixel.rozanfa.codes"
 			time="Jan 2024"
 		/>
 		<Chip

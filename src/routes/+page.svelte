@@ -12,7 +12,7 @@
 	<title>Rozan Fadhil Al Hafidz</title>
 	<meta
 		name="description"
-		content="Rozan Fadhil Al Hafidz's profile. An 8th university student at Bandung Institute of Technology"
+		content="Rozan Fadhil Al Hafidz's profile. An fourth-year university student at Bandung Institute of Technology"
 	/>
 </svelte:head>
 
