@@ -6,6 +6,15 @@
 	<h1 class="font-bold text-lg mb-4">Carier History</h1>
 	<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 		<Chip
+			title="Fullstack Developer Intern - GlobalDeel"
+			description="<li>Developed web applications using NextJS for the frontend and GraphQL with Flask for the backend.</li>
+			<li>Managed GitHub Actions for CI/CD pipelines and wrote Terraform configurations to automate infrastructure deployment.</li>
+			"
+			span={4}
+			bgColor="#ff6633"
+			time="Apr 2024 - Present"
+		/>
+		<Chip
 			title="Software Developer Intern - Equnix Business Solutions, PT."
 			description="<li>Developed ETL tools used to migrate between databases.</li>
 			<li>Helped in developing a PostgreSQL extension using C language.</li>

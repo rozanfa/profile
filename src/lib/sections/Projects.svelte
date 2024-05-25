@@ -10,6 +10,7 @@
 			title="Dunia Material"
 			description="A website for buying construction materials. Used NextJS, TailwindCSS, and MaterialUI. Implements internationalization to support multiple languages."
 			span={2}
+			link="https://duniamaterial.com"
 			bgColor="#ddbb40"
 			time="Mar 2024"
 		/>
