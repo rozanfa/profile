@@ -17,12 +17,12 @@
 	style="background-color: {bgColor}88; grid-column: span {span} / span {span}"
 >
 	<div class="flex items-center">
-		{#each logos as logo}
-			<img src={logo} alt="Python" class="w-4 h-4 mr-2" />
+		{#each logos as logoItem}
+			<img src={logoItem} alt={`${title} logo`} class="w-4 h-4 mr-2" />
 		{/each}
 		<div class="w-full flex justify-between items-center">
 			{#if link}
-				<a href={link} class="external"><h3>{title}</h3></a>
+				<a href={link} target="_blank" rel="noopener noreferrer" class="external"><h3>{title}</h3></a>
 			{:else}
 				<h3>{title}</h3>
 			{/if}

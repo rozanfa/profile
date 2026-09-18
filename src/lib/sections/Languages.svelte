@@ -22,7 +22,7 @@
 
 <section id="languages">
 	{#if displaySectionTitle}
-		<h1 class="font-bold text-lg mb-4">Some Programming Languages I Have Used</h1>
+		<h2 class="font-bold text-lg mb-4">Some Programming Languages I Have Used</h2>
 	{/if}
 	<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 		<Chip

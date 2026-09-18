@@ -2,8 +2,8 @@
 	import Chip from '$lib/components/Chip.svelte';
 </script>
 
-<section id="carier-history">
-	<h1 class="font-bold text-lg mb-4">Carier History</h1>
+<section id="career-history">
+	<h2 class="font-bold text-lg mb-4">Career History</h2>
 	<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 		<Chip
 			title="Fullstack Developer Intern - GlobalDeel"

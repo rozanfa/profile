@@ -10,7 +10,7 @@
 	<div
 		class="max-w-[450px] mx-auto text-white w-full h-full terminal text-black bg-green-100 p-4 rounded-lg border border-gray-900"
 	>
-		<h1 class="font-bold text-base md:text-lg md:mb-4 mb-2">Contact Me</h1>
+		<h2 class="font-bold text-base md:text-lg md:mb-4 mb-2">Contact Me</h2>
 		<div class="grid grid-cols-3 max-w-[350px] mx-auto text-xs md:text-base">
 			<div class="flex items-center flex-1">
 				<img src={linkedinLogo} alt="LinkedIn" class="w-4 h-4 mr-2" />
@@ -18,29 +18,24 @@
 			</div>
 			<p class="col-span-2 text-blue-700">
 				:
-				<a href="https://www.linkedin.com/in/rozan-fadhil-al-hafidz/"> Rozan Fadhil Al Hafidz </a>
+				<a href="https://www.linkedin.com/in/rozan-fadhil-al-hafidz/" target="_blank" rel="noopener noreferrer"> Rozan Fadhil Al Hafidz </a>
 			</p>
 			<div class="flex items-center flex-1">
 				<img src={gmailLogo} alt="Gmail" class="w-4 h-4 mr-2" />
 				<p>Mail</p>
 			</div>
-			<p class="col-span-2">: rozanfadhilalhafidz@gmail.com</p>
+			<p class="col-span-2">: <a href="mailto:rozanfadhilalhafidz@gmail.com">rozanfadhilalhafidz@gmail.com</a></p>
 			<div class="flex items-center">
-				<img src={githubLogo} alt="Gmail" class="w-4 h-4 mr-2" />
-				<p>Github</p>
+				<img src={githubLogo} alt="GitHub" class="w-4 h-4 mr-2" />
+				<p>GitHub</p>
 			</div>
-			<p class="col-span-2 text-blue-700">: <a href="https://github.com/rozanfa">rozanfa</a></p>
-			<div class="flex items-center">
-				<img src={discordLogo} alt="Gmail" class="w-4 h-4 mr-2" />
-				<p>Discord:</p>
-			</div>
-			<p class="col-span-2">: bizeerr</p>
+			<p class="col-span-2 text-blue-700">: <a href="https://github.com/rozanfa" target="_blank" rel="noopener noreferrer">rozanfa</a></p>
 		</div>
 	</div>
 </section>
 
 <style lang="postcss">
-	h1,
+	h2,
 	p {
 		color: black;
 	}

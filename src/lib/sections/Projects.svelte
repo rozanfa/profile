@@ -3,7 +3,7 @@
 </script>
 
 <section id="recent-projects">
-	<h1 class="font-bold text-lg">Recent Projects</h1>
+	<h2 class="font-bold text-lg">Recent Projects</h2>
 	<p class="text-center mb-4">Mainly consist of personal project and school project</p>
 	<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 		<Chip

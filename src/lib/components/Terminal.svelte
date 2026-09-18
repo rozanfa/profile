@@ -62,6 +62,15 @@
 						<div class="cursor blinking"></div>
 					</div>
 				{/if}
+				<noscript>
+					<p class="mono">
+						Hello, I am currently a student pursuing a bachelor's degree in informatics engineering at Bandung Institute of Technology.
+						<br /><br />
+						I'm interested in web development, low-level programming, and deep learning.
+						<br /><br />
+						I love to use Linux because it gives me flexibility to customize. I enjoy trying open source projects that available on GitHub to customize my operating system.
+					</p>
+				</noscript>
 			</div></code
 		>
 	</div>

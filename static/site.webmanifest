@@ -1,0 +1,16 @@
+{
+	"name": "Rozan Fadhil Al Hafidz | Portfolio",
+	"short_name": "Rozan Fadhil",
+	"description": "Portfolio of Rozan Fadhil Al Hafidz, Fullstack Developer & Software Engineer",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#8fa3ff",
+	"theme_color": "#8fa3ff",
+	"icons": [
+		{
+			"src": "/favicon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

@@ -25,7 +25,7 @@
 </script>
 
 <section id="tools">
-	<h1 class="font-bold text-lg mb-4">Some Frameworks, Tools, etc. I Have Used</h1>
+	<h2 class="font-bold text-lg mb-4">Some Frameworks, Tools, etc. I Have Used</h2>
 	<div class="grid grid-cols-2 md:grid-cols-4 gap-2">
 		<Chip
 			logos={[nodejsLogo, reactjsLogo, nextjsLogo, flutterLogo, svelteLogo]}
